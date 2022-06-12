@@ -1,0 +1,1 @@
+print("my first python job with is run within Jenkinfile")
