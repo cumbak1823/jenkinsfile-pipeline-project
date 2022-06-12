@@ -13,5 +13,12 @@ pipeline {
                 echo 'Kaya'
             }
         }
+        stage('cast') {
+            steps {
+                echo 'Maya'
+                sh 'python --version'
+                sh 'python pipeline.py'
+            }
+        }
     }
 }
