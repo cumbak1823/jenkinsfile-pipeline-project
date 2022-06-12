@@ -12,5 +12,10 @@ pipeline {
                 echo "Kaya Test run"
             }
         }
+        stage('test') {
+            steps {
+                echo "Kaya Test"
+            }
+        }
     }
 }
